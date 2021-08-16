@@ -1,0 +1,55 @@
+<!-- Author: Qinglin Li, Net ID: qlt073 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="screen">
+            <div id="output">0</div>
+            <div id="operator"></div>
+        </div>
+        <div class="row">
+            <button>MC</button>
+            <button>M+</button>
+            <button>M-</button>
+            <button>MR</button>
+        </div>
+        <div class="row">
+            <button id="btn-clear">C</button>
+            <button id="btn-negate">&#xb1;</button>
+            <button id="btn-divide" class="btn-operator">&divide;</button>
+            <button id="btn-times" class="btn-operator">&times;</button>
+        </div>
+        <div class="row">
+            <button class="btn-number">7</button>
+            <button class="btn-number">8</button>
+            <button class="btn-number">9</button>
+            <button id="btn-minus" class="btn-operator">&minus;</button>
+        </div>
+        <div class="row">
+            <button class="btn-number">4</button>
+            <button class="btn-number">5</button>
+            <button class="btn-number">6</button>
+            <button id="btn-plus" class="btn-operator">+</button>
+        </div>
+        <button id="btn-eq">=</button>
+        <div class="row">
+            <button class="btn-number">1</button>
+            <button class="btn-number">2</button>
+            <button class="btn-number">3</button>
+        </div>
+        <div class="row">
+            <button class="btn-large btn-number">0</button>
+            <button id="btn-dot">.</button>
+        </div>
+    </div>
+    <script src="./jquery-2.2.0.min.js"></script>
+    <script src="./calculator.js"></script>
+</body>
+
+</html>
