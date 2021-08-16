@@ -6,21 +6,7 @@
     <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">
     <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.structure.css">
     <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.theme.css">
-    <script>
-        $( function() {
-            $( "#menu" ).menu();
-            $( "#clock-dialog" ).dialog();
-            $( "#clock-dialog" ).dialog( "close" );
-            $( "#clock-opener" ).on( "click", function() {
-                $( "#clock-dialog" ).dialog( "open" );
-            });
-            $( "#calculator-dialog" ).dialog();
-            $( "#calculator-dialog" ).dialog( "close" );
-            $( "#calculator-opener" ).on( "click", function() {
-                $( "#calculator-dialog" ).dialog( "open" );
-            });
-        } );
-    </script>
+    {% include script.html %}
     <style>
         * { font-family: Arial,Helvetica,sans-serif; }
         .ui-menu { width: 150px; }
