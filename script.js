@@ -1,4 +1,5 @@
 $( function() {
+    $('#dialog').load('dialog.html');
     $( "#menu" ).menu();
     $( "#clock-dialog" ).dialog();
     $( "#clock-dialog" ).dialog( "close" );
